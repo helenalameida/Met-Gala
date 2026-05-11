@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #fad3ff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+
+h1{
+ font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+    color: #333;
+}
+
+.subtitulo{
+    color: 333;
+    margin-bottom: 7vh;
+}
+
+.opcoes{
+display: flex;
+justify-content: center;
+gap: 5%;
+flex-wrap: wrap;
+} 
+
+.cartao{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    box-shadow: 0 2px 8px #rgba(0,0,0,0.1) ;
+    transition: border-color 0.2s, tranform 0,2;
+}
+
+.cartao:hover{
+    border-color: #007bff
+    transform: scale(1.03);
+}
