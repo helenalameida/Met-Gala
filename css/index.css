@@ -16,7 +16,7 @@ h2{
     font-size: 2rem;
     margin-bottom: 2vh;
     margin-top: 3vh;
-    color: #333;
+    color: #000000;
 }
 
 .subtitulo{
@@ -43,6 +43,27 @@ flex-wrap: wrap;
 }
 
 .cartao:hover{
-    border-color: #007bff
+    border-color: #000000
     transform: scale(1.03);
+}
+
+.cartao img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cartao p{
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+}
+.vs{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #aaa;
+    display: flex;
+    align-items: center;
 }
