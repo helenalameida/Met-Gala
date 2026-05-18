@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-background-color: #fad3ff;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: center;
+    background-color: #fad3ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 h1{
- font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 h2{
     font-size: 2rem;
     margin-bottom: 2vh;
@@ -20,15 +22,15 @@ h2{
 }
 
 .subtitulo{
-    color: 333;
+    color: #333; 
     margin-bottom: 7vh;
 }
 
 .opcoes{
-display: flex;
-justify-content: center;
-gap: 5%;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
 } 
 
 .cartao{
@@ -38,12 +40,12 @@ flex-wrap: wrap;
     width: 220px;
     cursor: pointer;
     border: 3px solid transparent;
-    box-shadow: 0 2px 8px #rgba(0,0,0,0.1) ;
-    transition: border-color 0.2s, tranform 0,2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    transition: border-color 0.2s, transform 0.2s; 
 }
 
 .cartao:hover{
-    border-color: #000000
+    border-color: #000000; /
     transform: scale(1.03);
 }
 
@@ -60,6 +62,7 @@ flex-wrap: wrap;
     font-weight: bold;
     color: #444;
 }
+
 .vs{
     font-size: 2rem;
     font-weight: bold;
