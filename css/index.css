@@ -22,7 +22,7 @@ h2{
 }
 
 .subtitulo{
-    color: #333; 
+    color: #000000; 
     margin-bottom: 7vh;
 }
 
@@ -40,12 +40,12 @@ h2{
     width: 220px;
     cursor: pointer;
     border: 3px solid transparent;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     transition: border-color 0.2s, transform 0.2s; 
 }
 
 .cartao:hover{
-    border-color: #000000; /
+    border-color: #ffb7f5; /
     transform: scale(1.03);
 }
 
@@ -66,7 +66,7 @@ h2{
 .vs{
     font-size: 2rem;
     font-weight: bold;
-    color: #aaa;
+    color: #000000;
     display: flex;
     align-items: center;
 }
